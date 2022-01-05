@@ -1,19 +1,20 @@
-const app = require("./app");
-const db = require("./knexfile");
+const express = require("express");
+const cors = require("cors");
+const app = express();
+const axios = require("axios");
 
-const port = 3000 || process.env.PORT;
+app.use(express.json());
+app.use(cors());
 
-(async () => {
-  try {
-    console.log("Running migrations...");
-    await db.migrate.latest();
+app.get("/api", async (req, res) => {
+  const text = "https://www.affirmations.dev";
+  const response = await axios.get(text);
+  const result = response.data.affirmation;
+  res.json(result);
+});
 
-    console.log("Starting express");
-    app.listen(port, () => {
-      console.log(`App listening on port ${port}!!!`);
-    });
-  } catch (err) {
-    console.error("Error starting app!", err);
-    process.exit(-1);
-  }
-})();
+const port = process.env.PORT || 5000;
+
+app.listen(port, () => {
+  console.log(`server listening on ${port}`);
+});
