@@ -9,13 +9,11 @@ body {
 }
 
 .button-area {
-  background-color: antiquewhite;
-  width: 200px;
-  height: 200px;
   margin: 0 auto;
 }
 
 .button-area button {
-  width: 100px;
-  height: 100px;
+  border: none;
+  background-color: rgb(250, 231, 208, 0.3);
+  width: 400px;
 }
