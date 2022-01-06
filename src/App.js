@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='title'>Positive Emo</h1>
+      <h1 className='title'>Positive Emo-chan</h1>
       <div className='button-area'>
         <button onClick={()=> click()}>
            <p><img src={bocco} /></p>
