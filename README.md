@@ -44,7 +44,7 @@
   </ol>
 </details>
 
-<div align="center>
+<div align="center">
 <img src="src/img/application_emo.png" alt="App" width="400" height="400">
 </div>
 
