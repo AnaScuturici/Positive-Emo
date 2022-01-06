@@ -12,7 +12,7 @@ body {
 
 .title {
   background-color: rgba(226, 200, 169, 0.3);
-  width: 450px;
+  width: 400px;
   height: 70px;
   margin: 30px auto 0px auto;
   padding-top: 28px;
@@ -20,7 +20,7 @@ body {
 }
 
 .button-area {
-  margin: 50px auto 0px auto;
+  margin: 40px auto 0px auto;
 }
 
 .button-area p{
@@ -35,8 +35,8 @@ body {
 .button-area button {
   border: none;
   background-color: rgba(76, 170, 247, 0.3);
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 380px;
   border-radius: 30px;
   box-shadow: 2px 2px 6px silver;
 }
@@ -46,7 +46,7 @@ body {
   display: inline-block;
   margin: 2em 0;
   padding: 10px 1px;
-  width: 450px;
+  width: 400px;
   height: 100%;
   background: rgba(226, 200, 169, 0.3);
 }
