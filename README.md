@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AnaScuturici/Positive-Emo">
-    <img src="img_bocco.png" alt="Logo" width="80" height="80">
+    <img src="src/img_bocco.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Positive Emo</h3>
@@ -92,7 +92,7 @@ This application has been deployed on [Heroku](https://positive-emo.herokuapp.co
 ## Contributing
 
 **Team Positive-Emo**  
-Tech lead, backend: [Ana Scuturici](https://github.com/AnaScuturici)   
+Tech lead: [Ana Scuturici](https://github.com/AnaScuturici)   
 Frontend: [Mei Omomo](https://github.com/mei-omomo) & [Roman Montoya](https://github.com/Roman4u)  
 Backend: [Motoki Mizuno](https://github.com/Motoki-tech)
 
