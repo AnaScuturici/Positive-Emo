@@ -8,7 +8,7 @@ function App() {
   async function refreshToken(){
     const response = await axios.post("https://platform-api.bocco.me/oauth/token/refresh", 
       { 
-        "refresh_token": "94b4950e-4718-43f6-9d58-76d2b2cc10de"
+        "refresh_token": process.env.REACT_APP_REFRESH_TOKEN,
     })
     const token = response.data.access_token;
     return token; 
@@ -18,7 +18,7 @@ function App() {
     try {
       const text = await axios.get("/api");
       
-    await axios.post("https://platform-api.bocco.me/v1/rooms/272f4f0f-b20c-4b18-9f4e-0cba6e9fae17/messages/text",  
+    await axios.post(`https://platform-api.bocco.me/v1/rooms/${process.env.REACT_APP_ROOM_ID}/messages/text`,  
       {
         'text': text.data,
       },
