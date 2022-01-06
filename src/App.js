@@ -1,9 +1,11 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import bocco from './img_bocco.png';
 
 function App() {
+
+  const [textData, setTextData] = useState("Click me")
 
   async function refreshToken(){
     const response = await axios.post("https://platform-api.bocco.me/oauth/token/refresh", 
@@ -17,6 +19,7 @@ function App() {
   const click = async () => {
     try {
       const text = await axios.get("/api");
+      setTextData(text.data);
       
     await axios.post(`https://platform-api.bocco.me/v1/rooms/${process.env.REACT_APP_ROOM_ID}/messages/text`,  
       {
@@ -29,9 +32,8 @@ function App() {
       },
     });
     } catch (error) {
-      console.error(error);
-      
-    }
+      console.error(error); 
+    };
   };
 
   return (
@@ -40,7 +42,10 @@ function App() {
       <div className='button-area'>
         <button onClick={()=> click()}>
            <p><img src={bocco} /></p>
-          </button>
+        </button>
+      </div>
+      <div className='text-area'>
+        <p>{textData}</p>
       </div>
     </div>
   );
