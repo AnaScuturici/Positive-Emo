@@ -10,7 +10,7 @@
 <h3 align="center">Positive Emo</h3>
 
   <p align="center">
-    This was developed during our time as students at Code Chrysalis
+    This was developed during our time as students at [Code Chrysalis](https://www.codechrysalis.io/)  
     <br />
     <a href="https://github.com/AnaScuturici/Positive-Emo"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,11 +44,9 @@
   </ol>
 </details>
 
-<div>
-<img src="src/img/application_emo.png" alt="App" width="300" height="300">
+<div align="center>
+<img src="src/img/application_emo.png" alt="App" width="400" height="400">
 </div>
-
-This was developed during our time as students at Code Chrysalis.
 
 Positive Emo is a simple app based on the [BOCCO emo robot](https://www.bocco.me/en/). It utilizes the API developed by [Yukai-Engineering](https://www.ux-xu.com/en).
 The purpose of the app is for the users to interact with and receive encouraging messages from Emo-chan.
