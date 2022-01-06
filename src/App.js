@@ -1,39 +1,30 @@
 import './App.css';
-import React, {useEffect} from 'react';
+import React from 'react';
 import axios from "axios";
 import bocco from './img_bocco.png';
 
 function App() {
 
-
-  async function refresh(){
+  async function refreshToken(){
     const response = await axios.post("https://platform-api.bocco.me/oauth/token/refresh", 
       { 
         "refresh_token": "94b4950e-4718-43f6-9d58-76d2b2cc10de"
     })
     const token = response.data.access_token;
-    console.log("response", token);
     return token; 
   };
 
-  // useEffect(()=>{
-  //   refresh();
-  // }, []);
-
-  const click = async (e) => {
-    e.preventDefault();
+  const click = async () => {
     try {
       const text = await axios.get("/api");
-      console.log(text.data);
       
-
     await axios.post("https://platform-api.bocco.me/v1/rooms/272f4f0f-b20c-4b18-9f4e-0cba6e9fae17/messages/text",  
       {
         'text': text.data,
       },
      {
       headers: {
-        'Authorization': `Bearer ${await refresh()}`,
+        'Authorization': `Bearer ${await refreshToken()}`,
         'Content-Type': 'application/json'
       },
     });
@@ -47,7 +38,7 @@ function App() {
     <div className="App">
       <h1 className='title'>Positive Emo</h1>
       <div className='button-area'>
-        <button onClick={(e)=> click(e)}>
+        <button onClick={()=> click()}>
            <p><img src={bocco} /></p>
           </button>
       </div>
