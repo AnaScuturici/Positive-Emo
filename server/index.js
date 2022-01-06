@@ -13,7 +13,7 @@ app.get("/api", async (req, res) => {
   res.json(result);
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 app.listen(port, () => {
   console.log(`server listening on ${port}`);
