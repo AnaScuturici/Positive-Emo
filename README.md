@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AnaScuturici/Positive-Emo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img_bocco.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Positive Emo</h3>
@@ -40,7 +40,6 @@
     <li><a href="#built-with">Built with</a></li>
     <li><a href="#deployment">Deployment</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -92,18 +91,12 @@ This application has been deployed on [Heroku](https://positive-emo.herokuapp.co
 
 ## Contributing
 
-**Team Positive-Emo**
-Ana Scuturici- tech lead, backend  
-Mei - frontend  
-Mizuki - backend  
-Roman - frontend  
-
-## Contact
-
-
-
+**Team Positive-Emo**  
+Tech lead, backend: [Ana Scuturici](https://github.com/AnaScuturici)   
+Frontend: [Mei Omomo](https://github.com/mei-omomo) & [Roman Montoya](https://github.com/Roman4u)  
+Backend: [Motoki Mizuno](https://github.com/Motoki-tech)
 
 ## Acknowledgments
 
 Many thanks to [Yukai Engineering](https://www.ux-xu.com/en) for providing the API and the support during the development of the application.
-Everyone at Code Chrysalis, CC24 & J7.
+Everyone at [Code Chrysalis](https://www.codechrysalis.io/), CC24 & J7 cohorts.
