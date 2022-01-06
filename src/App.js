@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import axios from "axios";
-import bocco from './img_bocco.png';
+import bocco from './img/img_bocco.png';
 
 function App() {
 
