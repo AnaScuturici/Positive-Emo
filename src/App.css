@@ -26,6 +26,13 @@ body {
 
 .button-area p{
   margin-top: -100px;
+  transition: 1.0s;
+}
+
+.button-area p:hover {
+  /* opacity: 0.8; */
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
 }
 
 .button-area button {
