@@ -10,7 +10,7 @@
 <h3 align="center">Positive Emo</h3>
 
   <p align="center">
-    This was developed during our time as students at [Code Chrysalis](https://www.codechrysalis.io/)  
+    This was developed during our time as students at <a href="https://www.codechrysalis.io/">Code Chrysalis</a> 
     <br />
     <a href="https://github.com/AnaScuturici/Positive-Emo"><strong>Explore the docs »</strong></a>
     <br />
