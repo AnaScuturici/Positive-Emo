@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/AnaScuturici/Positive-Emo">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -12,14 +12,14 @@
   <p align="center">
     This was developed during our time as students at Code Chrysalis.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AnaScuturici/Positive-Emo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/AnaScuturici/Positive-Emo/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/AnaScuturici/Positive-Emo/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,9 +66,9 @@ git clone https://github.com/AnaScuturici/Positive-Emo.git
 ```sh
 npm install
 ```
-3. Use the sample.env file to set up the environment variables:
-    REACT_APP_ROOM_ID=`your_room_id`
-    REACT_APP_REFRESH_TOKEN=`your_refresh_token`
+3. Use the sample.env file to set up the environment variables:  
+    REACT_APP_ROOM_ID=`your_room_id`  
+    REACT_APP_REFRESH_TOKEN=`your_refresh_token`  
 
 ### Starting the application
 
@@ -83,20 +83,20 @@ in your terminal to start the app at http://localhost:3000/
 [Reactjs](https://reactjs.org/)  
 [Expressjs](https://expressjs.com/)  
 
-[Yukai Engineering](https://www.ux-xu.com/en) API: https://platform-api.bocco.me/api-docs/
-We used an open-source api as a source for the [affirmations]: (https://github.com/annthurium/affirmations.git)
+[Yukai Engineering API](https://platform-api.bocco.me/api-docs/)  
+We used an open-source api as a source for the [affirmations](https://github.com/annthurium/affirmations.git)
 
 ## Deployment
 
-This application has been deployed on [Heroku](https://dashboard.heroku.com/apps) at: https://positive-emo.herokuapp.com/
+This application has been deployed on [Heroku](https://positive-emo.herokuapp.com/)
 
 ## Contributing
 
 **Team Positive-Emo**
-Ana Scuturici- tech lead, backend
-Mei - frontend
-Mizuki - backend
-Roman - frontend
+Ana Scuturici- tech lead, backend  
+Mei - frontend  
+Mizuki - backend  
+Roman - frontend  
 
 ## Contact
 
@@ -105,5 +105,5 @@ Roman - frontend
 
 ## Acknowledgments
 
-Many thanks to Yukai Engineering for providing the API and the support during the development of the application.
+Many thanks to [Yukai Engineering](https://www.ux-xu.com/en) for providing the API and the support during the development of the application.
 Everyone at Code Chrysalis, CC24 & J7.
