@@ -4,13 +4,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/AnaScuturici/Positive-Emo">
-    <img src="src/img_bocco.png" alt="Logo" width="80" height="80">
+    <img src="src/img/img_bocco.png" alt="Logo" width="60" height="80">
   </a>
 
 <h3 align="center">Positive Emo</h3>
 
   <p align="center">
-    This was developed during our time as students at Code Chrysalis.
+    This was developed during our time as students at Code Chrysalis
     <br />
     <a href="https://github.com/AnaScuturici/Positive-Emo"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,7 +44,9 @@
   </ol>
 </details>
 
-![positive-emo](image)
+<div>
+<img src="src/img/application_emo.png" alt="App" width="300" height="300">
+</div>
 
 This was developed during our time as students at Code Chrysalis.
 
