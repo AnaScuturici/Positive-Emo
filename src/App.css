@@ -2,18 +2,66 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
+  color: rgb(99, 99, 99);
+  letter-spacing: 1px;
 }
 
 .App {
   text-align: center;
 }
 
+.title {
+  background-color: rgba(226, 200, 169, 0.3);
+  width: 450px;
+  height: 70px;
+  margin: 30px auto 0px auto;
+  padding-top: 28px;
+  box-shadow: 2px 2px 6px silver;
+}
+
 .button-area {
-  margin: 0 auto;
+  margin: 50px auto 0px auto;
+}
+
+.button-area p{
+  transition: 1.0s;
+}
+
+.button-area p:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
 }
 
 .button-area button {
   border: none;
-  background-color: rgb(250, 231, 208, 0.3);
-  width: 400px;
+  background-color: rgba(76, 170, 247, 0.3);
+  width: 450px;
+  height: 450px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 6px silver;
+}
+
+.text-area {
+  position: relative;
+  display: inline-block;
+  margin: 2em 0;
+  padding: 10px 1px;
+  width: 450px;
+  height: 100%;
+  background: rgba(226, 200, 169, 0.3);
+}
+
+.text-area:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid rgba(226, 200, 169, 0.3);
+}
+
+.text-area p {
+  margin: 10px 30px;
+  font-size: 22px;
 }
