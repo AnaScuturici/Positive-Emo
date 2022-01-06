@@ -1,4 +1,4 @@
-# Positive Emo
+# Positive Emo-chan
 
 <!-- PROJECT LOGO -->
 <br />
@@ -7,7 +7,7 @@
     <img src="src/img/img_bocco.png" alt="Logo" width="60" height="80">
   </a>
 
-<h3 align="center">Positive Emo</h3>
+<h3 align="center">Positive Emo-chan</h3>
 
   <p align="center">
     This was developed during our time as students at <a href="https://www.codechrysalis.io/">Code Chrysalis</a> 
@@ -48,7 +48,7 @@
 <img src="src/img/application_emo.png" alt="App" width="400" height="400">
 </div>
 
-Positive Emo is a simple app based on the [BOCCO emo robot](https://www.bocco.me/en/). It utilizes the API developed by [Yukai-Engineering](https://www.ux-xu.com/en).
+Positive Emo-chan is a simple app based on the [BOCCO emo robot](https://www.bocco.me/en/). It utilizes the API developed by [Yukai-Engineering](https://www.ux-xu.com/en).
 The purpose of the app is for the users to interact with and receive encouraging messages from Emo-chan.
 
 ## Getting Started
