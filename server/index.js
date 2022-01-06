@@ -1,10 +1,11 @@
+require("dotenv").config();
 const express = require("express");
-const cors = require("cors");
+// const cors = require("cors");
 const app = express();
 const axios = require("axios");
 
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
 
 app.get("/api", async (req, res) => {
   const text = "https://www.affirmations.dev";
@@ -13,7 +14,7 @@ app.get("/api", async (req, res) => {
   res.json(result);
 });
 
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log(`server listening on ${port}`);
