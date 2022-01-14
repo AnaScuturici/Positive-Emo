@@ -15,7 +15,7 @@
     <a href="https://github.com/AnaScuturici/Positive-Emo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=kBLJZQpu1qM&t=1142s&ab_channel=CodeChrysalis%5B%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AF%E3%83%AA%E3%82%B5%E3%83%AA%E3%82%B9%5D">View Demo</a>
     ·
     <a href="https://github.com/AnaScuturici/Positive-Emo/issues">Report Bug</a>
     ·
