@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from "axios";
 import bocco from './img/img_bocco.png';
 
@@ -35,6 +35,7 @@ function App() {
       console.error(error); 
     };
   };
+
 
   return (
     <div className="App">
