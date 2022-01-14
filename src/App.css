@@ -19,11 +19,19 @@ body {
   box-shadow: 2px 2px 6px silver;
 }
 
+@media screen and (max-width: 599px) {
+  .title {
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+  }
+}
+
 .button-area {
   margin: 40px auto 0px auto;
 }
 
-.button-area p{
+.button-area p {
   transition: 1.0s;
 }
 
@@ -41,6 +49,18 @@ body {
   box-shadow: 2px 2px 6px silver;
 }
 
+@media screen and (max-width: 599px) {
+  .button-area button {
+    width: 300px;
+    height: 300px;
+  }
+
+  .button-area img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
 .text-area {
   position: relative;
   display: inline-block;
@@ -49,6 +69,12 @@ body {
   width: 400px;
   height: 100%;
   background: rgba(226, 200, 169, 0.3);
+}
+
+@media screen and (max-width: 599px) {
+  .text-area {
+    width: 300px;
+  }
 }
 
 .text-area:before {
@@ -64,4 +90,10 @@ body {
 .text-area p {
   margin: 10px 30px;
   font-size: 22px;
+}
+
+@media screen and (max-width: 599px) {
+  .text-area p {
+    font-size: 16px;
+  }
 }
